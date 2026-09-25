@@ -544,7 +544,7 @@ ollama run <your-model-name>
 Install Streamlit:
 
 ```bash
-pip install streamlit
+uv install streamlit
 ```
 
 You can also run Streamlit through Python:
@@ -648,7 +648,6 @@ This helps identify whether the problem is with Ollama or the Streamlit applicat
 The current `pyproject.toml` defines:
 
 ```text
-numpy>=2.5.3
 ollama>=0.6.2
 streamlit>=1.64.0
 ```
@@ -749,7 +748,7 @@ cd hammad-ahmad-suja-hammad_chatbot
 Create the environment:
 
 ```bash
-python -m venv .venv
+uv venv
 ```
 
 Activate it on Windows PowerShell:
@@ -761,7 +760,7 @@ Activate it on Windows PowerShell:
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+uv python install -r requirements.txt
 ```
 
 Pull the Ollama model:
@@ -860,7 +859,7 @@ Common choices include:
 
 **Hammad Ahmad**
 
-GitHub: `https://github.com/YOUR-GITHUB-USERNAME`
+GitHub: `https://github.com/hammad-ahmad-suja/hammad_chatbot`
 
 ---
 
